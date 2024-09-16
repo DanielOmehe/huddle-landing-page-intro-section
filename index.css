@@ -60,6 +60,7 @@
     color: white;
     font-size: 1rem;
     margin-bottom: 2rem;
+    padding-right: 3rem;
 }
 
 .huddle-page-content button{
@@ -84,6 +85,7 @@
     width: 100%;
     height: 100px;
     padding: 1.6rem;
+    padding-right: 10rem;
     height: fit-content;
     display: flex;
     align-items: center;
@@ -125,4 +127,71 @@
 .attribution a{
     color: #fff;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 375px){
+    .huddle-landing-page{
+        width: 100%;
+        height: fit-content;
+        background-image: url("images/bg-mobile.svg");
+        background-repeat: no-repeat;
+    }
+
+    .huddle-landing-page-header{
+        padding: 0 0 0 2rem;
+        width: 100%;
+    }
+
+    .huddle-landing-page-header img{
+        width: 150px;
+        height: 100px;
+    }
+
+    .huddle-landing-page-content{
+        width: 100%;
+        gap: 4rem;
+        margin-top: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 1.5rem 1.5rem 1.5rem;
+    }
+
+    .huddle-page-illustration{
+        width: 95%;
+        height: 225px;
+    }
+
+    .huddle-page-illustration img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .huddle-page-content{
+        width: 100%;
+        padding: 0;
+    }
+
+    .huddle-page-content h1{
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .huddle-page-content p{
+        padding: 0;
+    }
+
+    .huddle-page-content button{
+        width: 60%;
+        margin-bottom: 4rem;
+    }
+
+    .huddle-landing-page-footer{
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
 }
